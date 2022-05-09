@@ -1,3 +1,13 @@
+import List from "./views/Characters/List";
+
 export default function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <>
+      <header>
+        <h1>Rick and Morty 2.0</h1>
+
+      </header>
+      <List />
+    </>
+  );
 }
