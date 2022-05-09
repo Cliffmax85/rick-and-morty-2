@@ -1,0 +1,25 @@
+.container {
+    display: grid;
+    grid: 1fr / 1fr / 1fr;
+}
+
+.list {
+    background-color: bisque;
+    width: 250px;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.detail {
+  background-color: rgb(19, 218, 119);
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(232, 20, 218);
+  border-radius: 20px;
+}
