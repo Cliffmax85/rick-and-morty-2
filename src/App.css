@@ -1,15 +1,46 @@
+
+html,
+body,
+#root,
+.App {
+  background-color: rgb(238, 248, 243);
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .container {
     display: grid;
-    grid: 1fr / 1fr / 1fr;
+    grid: .2fr / .2fr / .5fr;
 }
 
 .list {
     background-color: bisque;
-    width: 250px;
+    width: 1500px;
     display: flex;
-    flex-direction: wrap;
+    flex-direction: row;
     justify-content: center;
     text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.list section {
+    background-color: rgb(104, 172, 21);
+    color: azure;
+    width: auto;
+    text-decoration: none;
+    border-style: ridge;
+    margin-bottom: 20px;
+}
+
+.list img {
+    border-radius: 25px;
 }
 
 .detail {
@@ -19,7 +50,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 15rem;
   align-items: center;
   color: rgb(232, 20, 218);
   border-radius: 20px;
+  margin-left: 20rem;
+
 }
